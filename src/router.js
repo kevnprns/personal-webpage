@@ -7,7 +7,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/homepage',
       name: 'homepage',
       component: Homepage
     },
@@ -27,7 +27,7 @@ export default new Router({
       component: () => import('./views/Projects.vue')
     },
     {
-      path: '/Work',
+      path: '/',
       name: 'Work',
       component: () => import('./views/Work.vue')
     },
