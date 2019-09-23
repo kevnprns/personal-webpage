@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ddbee"],{8363:function(e,n,t){"use strict";t.r(n);var i=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticStyle:{height:"100%"}})},s=[],u={name:"Play",data:function(){return{msg:"This is Kevins Vue App"}}},a=u,c=t("2877"),l=Object(c["a"])(a,i,s,!1,null,null,null);n["default"]=l.exports}}]);
-//# sourceMappingURL=chunk-2d0ddbee.89e9b0fd.js.map
