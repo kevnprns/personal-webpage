@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Homepage from './views/Homepage.vue'
+import Work from './views/Work.vue'
 
 Vue.use(Router)
 
@@ -29,7 +30,7 @@ export default new Router({
     {
       path: '/',
       name: 'Work',
-      component: () => import('./views/Work.vue')
+      component: Work
     },
     {
       path: '*',
