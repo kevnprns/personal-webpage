@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/personal-webpage/'
-    : '/'
+  assetsDir: process.env.NODE_ENV === 'production'
+    ? '../img'
+    : './img'
 }
