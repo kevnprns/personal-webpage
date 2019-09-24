@@ -1,3 +1,3 @@
 module.exports = {
-  assetsDir: '../personal-webpage/docs'
+  publicPath: '../personal-webpage/'
 }
