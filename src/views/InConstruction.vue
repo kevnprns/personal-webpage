@@ -26,7 +26,8 @@ export default {
     return {
       msg: 'In Construction'
     }
-  }
+  },
+  
 }
 </script>
 

@@ -77,10 +77,10 @@ t<template lang="html">
               <div class="sectionSpacing text-sm-left">
                 <p class="">Grew up in <span class="red--text">Por</span><span class="yellow--text">tu</span><span class="green--text">gal</span> in a small town called...&nbsp;&nbsp;<span class="jumboWord">Meirinhas</span></p>
                 <p class="paddedTop">
-                  Moved to Canada in grade 10 by myself to go to school in my grandparents hometown.
+                  Moved to Canada in grade 10 by myself to go to school in my grandparents home town.
                 </p>
                 <p>
-                  In highschool, I focused on accounting and language courses to improove both my English and French.
+                  In high school, I focused on accounting and language courses to improve both my English and French.
                   However, in my grade 12 year, my interest in how software was made grew and I decided to enroll into
                   <br>
                   <span class="jumboWord">Software Engineering</span>
@@ -102,7 +102,7 @@ t<template lang="html">
             <v-layout column justify-center fill-height>
 
               <div class="sectionSpacing text-sm-right">
-                <p class="">Begun studying at the University of Guelph in 2015 and completed my program within 4 years.</p>
+                <p class="">Began studying at the University of Guelph in 2015 and completed my program within 4 years.</p>
                 <br>
                 <p class="paddedTop">Started with limited coding knowledge at the start of the program but caught up quickly through coursework and personal work.</p>
                 <p>
@@ -282,6 +282,11 @@ export default {
     getImgPath (filename) {
       return require('@/assets/' + filename)
     }
+  },
+  mounted: function() {
+    let utcDate = (new Date().toUTCString()).split(' ')
+            utcDate.pop()
+            console.log(new Date(utcDate));
   }
 }
 </script>
